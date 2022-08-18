@@ -1,0 +1,96 @@
+
+body{
+    overflow: hidden;
+}
+
+.card-container{
+    width: 50vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 20vw);
+    grid-template-rows: repeat(3, 23.3vh);
+}
+
+.card-img-container{
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-image: url("/assets/image-product-desktop.jpg");
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+}
+
+/* titulo */
+
+.card-title-container{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border-top-right-radius: 10px;
+    padding: 1.5vw;
+}
+
+.card-title-container #n1 {
+    font-size: 1.9vw;
+    margin: 0;
+}
+
+.card-title-container #n2 {
+    font-size: 1.9vw;
+    margin: 0;
+}
+
+.card-title-container #n3 {
+    font-size: 1vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+/* Parrafo */
+.card-info-container{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 1.5vw;
+}
+
+.card-info-container #n4{
+    font-size: 1.3vw;
+}
+
+.card-price-container{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    display: flex;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    padding: 1.5vw;
+}
+
+.card-price-container div{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.card-price-container #n5{
+    font-size: 2vw;
+}
+
+.card-price-container #n6{
+    font-size: 1vw;
+}
+
+.card-price-button-container{
+    height: 5vh;
+    color: var(--white);
+    font-size: 1.5vw;
+}
+
+.card-price-button-container img{
+    width: 1.5vw;
+    height: 2vh;
+}
+
+.card-price-button-container p{
+    font-size: 1vw;
+}
