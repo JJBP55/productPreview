@@ -7,14 +7,14 @@ body{
     width: 50vw;
     height: 70vh;
     display: grid;
-    grid-template-columns: repeat(2, 20vw);
+    grid-template-columns: repeat(2, 25vw);
     grid-template-rows: repeat(3, 23.3vh);
 }
 
 .card-img-container{
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    background-image: url("/assets/image-product-desktop.jpg");
+    background-image: url('/assets/image-product-desktop.jpg');
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0px;
