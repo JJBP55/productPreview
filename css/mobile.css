@@ -33,7 +33,7 @@ body {
 .card-img-container{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    background-image: url('/assets/image-product-mobile.jpg');
+    background-image: url('../assets/image-product-mobile.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -14,7 +14,7 @@ body{
 .card-img-container{
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-    background-image: url('/assets/image-product-desktop.jpg');
+    background-image: url('../assets/image-product-desktop.jpg');
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0px;
