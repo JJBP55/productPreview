@@ -4,11 +4,11 @@ body{
 }
 
 .card-container{
-    width: 50vw;
-    height: 70vh;
+    width: 620px;
+    height: 500px;
     display: grid;
-    grid-template-columns: repeat(2, 25vw);
-    grid-template-rows: repeat(3, 23.3vh);
+    grid-template-columns: repeat(2, 310px);
+    grid-template-rows: repeat(3, 166.66px);
 }
 
 .card-img-container{
@@ -26,54 +26,50 @@ body{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     border-top-right-radius: 10px;
-    padding: 1.5vw;
+    padding: 0 30px;
 }
-
-.card-title-container #n1 {
-    font-size: 1.9vw;
-    margin: 0;
-}
-
+.card-title-container #n1,
 .card-title-container #n2 {
-    font-size: 1.9vw;
+    font-size: 2rem;
     margin: 0;
 }
-
 .card-title-container #n3 {
-    font-size: 1vw;
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
+    font-size: 0.8rem;
+    padding: 15px 0;
 }
 
 /* Parrafo */
 .card-info-container{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    padding: 1.5vw;
+    padding: 10px 30px;
 }
 
 .card-info-container #n4{
-    font-size: 1.3vw;
+    font-size: 0.8rem;
+    line-height: 25px;
+    letter-spacing: 1px;
 }
 
+/*  */
 .card-price-container{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     display: flex;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 10px;
-    padding: 1.5vw;
+    padding: 0 30px;
 }
 
 .card-price-container div{
     display: flex;
     align-content: center;
-    align-items: center;
-    height: 10vh;
+    align-items: flex-start;
+    height: 70px;
 }
 
 .card-price-container #n5{
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 .card-price-container #n6{
@@ -81,16 +77,15 @@ body{
 }
 
 .card-price-button-container{
-    height: 5vh;
+    height: 60px;
     color: var(--white);
-    font-size: 1.5vw;
 }
 
 .card-price-button-container img{
-    width: 1.5vw;
-    height: 2vh;
+    width: 20px;
+    height: 20px;
 }
 
 .card-price-button-container p{
-    font-size: 1vw;
+    font-size: 1rem;
 }
